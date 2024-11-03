@@ -47,8 +47,9 @@ This pie chart illustrates the distribution of sales by product, providing a qui
 
 This breakdown highlights the key products and their impact on total sales figures.
 
+Below are the visuals generated from the sales analysis:
 
-
+Screenshot (1).png
 
 
 
