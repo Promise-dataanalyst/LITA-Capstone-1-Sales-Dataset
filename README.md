@@ -50,7 +50,7 @@ This breakdown highlights the key products and their impact on total sales figur
 Below are the visuals generated from the sales analysis:
 
 
-https://github.com/Promise-dataanalyst/LITA-Capstone-1-Sales-Dataset/blob/main/Screenshot%20(1).png
+![Image Description] (https://github.com/Promise-dataanalyst/LITA-Capstone-1-Sales-Dataset/raw/main/Screenshot%20(1).png)
 
 
 
