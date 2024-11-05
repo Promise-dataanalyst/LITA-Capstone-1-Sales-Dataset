@@ -1,12 +1,15 @@
 # LITA-Capstone-1-Sales-Dataset
 
 ## Project Title: Sales Performance Analysis for a Retail Store
-
+ 
 ### Project Description
 ---
 This analysis evaluates the sales performance of a retail store, offering insights into monthly sales trends, top-selling products, total sales, and the distribution of sales by product category. The goal is to identify areas of strength and potential growth, enabling the store to strategize and enhance overall performance.
 
 
+# Create a Dashboard that visualizes the insights found in Excel and SQL
+
+### For Excel
 
 ### _Sum of Sales by Month_ 
 ----
@@ -23,7 +26,6 @@ This line chart shows total monthly sales, highlighting fluctuations throughout 
 This KPI card provides a summary of the store's total sales for the year, which amount to approximately **$2.10** million. - This KPI is essential for high-level stakeholders who require a quick overview of the store's annual financial performance without needing to examine detailed specifics.
 
 
-
 ### _Top Selling Product_
 ----
 This bar chart shows the best-selling products of the year and highlights which items made the most revenue. Here are the main points:
@@ -34,11 +36,7 @@ This bar chart shows the best-selling products of the year and highlights which 
 - By knowing which products are in high demand, the store can keep enough stock and find ways to sell related items together to boost profits.
 
 
-### _Sum of Sales by Product_
-----
-This pie chart shows how sales are spread out among different products, making it easy to see how much each product contributes to total sales. Here are some key points:
-
-**Sum of Sales by Product**
+**_Sum of Sales by Product_**
 ----
 This pie chart illustrates the distribution of sales by product, providing a quick understanding of each product's contribution to total sales. Notable observations include:
 
@@ -70,7 +68,6 @@ This bar chart shows the number of unit prices in different regions, broken down
 
 This Data indicates that the **East region** is doing really well in terms of pricing and sales. There seems to be an opportunity for growth in the **West region**, as it has the lowest count.
 Below is the visual
-
 ![Screenshot (1)](https://github.com/user-attachments/assets/245bd4c5-eaa1-4053-89ae-6965c62d224a)
 
 #### _Sum of Sales by Region_
@@ -86,3 +83,35 @@ Below is the visual.
 ![Screenshot (75)](https://github.com/user-attachments/assets/2f2b4f10-b01d-4eee-a3b3-72b0d11cd701)
 
 
+### A Dashboard that visualizes the insights found in SQL
+----
+### _Sum of Total Sales by Product_
+----
+**Key Insights:**
+- Shoes have the highest total sales, amounting to 613.38K, indicating a strong preference or higher price point in this category.
+- Shirts come next with 485.60K, followed by Hats and Gloves with sales values of 316.20K and 296.90K, respectively.
+- The products with the lowest total sales are Jackets (208.23K) and Socks (180.79K).
+**Implications:** Shoes and Shirts contribute significantly to total revenue, suggesting they may be high-demand products or that they have a larger margin per sale.
+![Screenshot 1](https://github.com/user-attachments/assets/4bc97b9f-125c-4265-a597-bd29c4f7832a)
+
+
+### Sum of Number of Sales by Region
+----
+ This bar chart illustrates the total number of sales across different regions (East, North, South, and West).
+ **Key Insights:**
+Each region **(East, North, South, and West)** has an equal count of 2.48K sales, suggesting a well-distributed market reach across regions.
+This uniform distribution could indicate that the company's marketing and distribution strategies are effectively reaching customers evenly across all regions.
+Implications: Maintaining balanced sales in each region could be beneficial for risk management and resource allocation. However, it may also suggest an opportunity to focus on targeted campaigns to boost sales further in certain regions.
+![Screenshot 2](https://github.com/user-attachments/assets/5d8d8cde-501d-4dd8-b7f5-60700c6d9e1e)
+
+
+ **Sum of Highest-selling Product by Total Sales Value**
+ ----
+This donut chart highlights the product with the highest sales value, which is Shoes, contributing to 100% of this particular metric.
+Key Insights:
+Shoes dominate as the product with the highest sales value, underscoring its significant impact on overall revenue.
+The visualization indicates that no other product reached the highest sales value category, reinforcing the popularity or pricing strategy behind Shoes.
+Implications: This suggests a successful strategy around Shoes, whether due to pricing, customer demand, or marketing efforts. The company could consider expanding the shoe product line or developing similar strategies for other product categories.
+
+percentage of total sales contributed by each region.
+ 
