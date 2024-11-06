@@ -1,6 +1,8 @@
 # LITA-Capstone-1-Sales-Dataset
 
-## Project Title: Sales Performance Analysis for a Retail Store
+## Project Title: 
+![Screenshot 2](https://github.com/user-attachments/assets/7e9570f9-fff2-4754-bdef-7136cfa590aa)
+
  
 ### Project Description
 ---
@@ -18,12 +20,15 @@ This line chart shows total monthly sales, highlighting fluctuations throughout 
 - The highest sales in February were **($546300m)** and July **($274800m)**, with a difference of **($271500)** In contrast, the lowest sales in September were **($34720m)** and April **($46865m)**, indicating potential low demand or inventory issues, resulting in a difference of **($12145)**.
 
 - Understanding these trends can help the store optimize inventory and marketing strategies for both peak and slow months.
-
+  
+![Screenshot (98)](https://github.com/user-attachments/assets/d99d799a-22a4-48e0-b845-fc6f5d346cce)
 
 
 ### _Total Sales Amount_
 ---
 This KPI card provides a summary of the store's total sales for the year, which amount to approximately **$2.10** million. - This KPI is essential for high-level stakeholders who require a quick overview of the store's annual financial performance without needing to examine detailed specifics.
+
+![Screenshot (99)](https://github.com/user-attachments/assets/aa53fae2-8556-494d-b53e-366f6f5e90d7)
 
 
 ### _Top Selling Product_
@@ -34,6 +39,8 @@ This bar chart shows the best-selling products of the year and highlights which 
 - Other popular items included shirts, hats, gloves, jackets, and socks.
 
 - By knowing which products are in high demand, the store can keep enough stock and find ways to sell related items together to boost profits.
+  
+![Screenshot (87)](https://github.com/user-attachments/assets/8d97676c-dfbf-41d1-9b02-bca30b73f82f)
 
 
 **_Sum of Sales by Product_**
@@ -47,14 +54,7 @@ This pie chart illustrates the distribution of sales by product, providing a qui
 
 This breakdown highlights the key products and their impact on total sales figures.
 
-Below are the visuals generated from the sales analysis:
-
-
-![Screenshot (73)](https://github.com/user-attachments/assets/b3057b53-a4c3-4edb-9bac-424f66b016b3)
-
-
-Conclusion:
-The dashboard provides a comprehensive view of the retail store’s sales performance. By examining monthly trends, total sales, top products, and sales distribution, this analysis enables the store to make data-driven decisions. These insights will be instrumental in inventory management, marketing focus, and resource allocation, ultimately supporting the store's growth and profitability.
+![Screenshot (93)](https://github.com/user-attachments/assets/e360bef3-9111-4f9d-bb54-279bac1045bd)
 
 
 ### Report on Sales Distribution and Unit Pricing by Region
@@ -68,7 +68,8 @@ This bar chart shows the number of unit prices in different regions, broken down
 
 This Data indicates that the **East region** is doing really well in terms of pricing and sales. There seems to be an opportunity for growth in the **West region**, as it has the lowest count.
 Below is the visual
-![Screenshot (1)](https://github.com/user-attachments/assets/245bd4c5-eaa1-4053-89ae-6965c62d224a)
+
+![Screenshot (92)](https://github.com/user-attachments/assets/45f8757c-3b19-4224-adb0-8f861b9fbc4c)
 
 #### _Sum of Sales by Region_
 ---
@@ -80,6 +81,7 @@ This pie chart shows the distribution of total sales by region, including both a
 
 The chart emphasizes the East region as the main revenue driver, while the South and West may need strategies to boost their sales.
 Below is the visual.
+
 ![Screenshot (75)](https://github.com/user-attachments/assets/2f2b4f10-b01d-4eee-a3b3-72b0d11cd701)
 
 
@@ -122,7 +124,7 @@ This donut chart shows that Shoes have the highest sales value, making up 100% o
 
 **Implications:**
 - This suggests a successful strategy for **Shoes** whether due to pricing, customer demand, or marketing. The company could consider expanding the shoe line or applying similar approaches to other products.
-
+  
 ![Screenshot (3)](https://github.com/user-attachments/assets/5dfd7eda-38e7-4e3d-9808-2abcb2498e94)
 
 
@@ -139,10 +141,17 @@ This donut chart shows that Shoes have the highest sales value, making up 100% o
 ![Screenshot (83)](https://github.com/user-attachments/assets/5a9ba9b7-649a-4bac-be3a-97c1df80ffc2)
 
 
+### Sum of Monthly Sales by Month
+----
+This line chart shows total sales for each month, making the sales trend for the year easy to see.
 
+**Key Insights:**
+- The highest sales were in February (298.30K) and January (198.40K).
+- Sales dropped steadily after February, reaching their lowest point in July (37.20K).
 
+**Implications:** The sales decline from February to July might suggest seasonal factors or lowered demand during those months. This information could help the team plan promotions or marketing strategies for the slower months.
 
-
+![Screenshot 1](https://github.com/user-attachments/assets/8ff7a837-1c05-4d0e-a46e-b8e93692f0ec)
 
 
 ### Product with No Sales in the Last Quarter
@@ -151,6 +160,7 @@ This chart shows how many of each product was sold.
 
 **Key Insights:** The data reveals that there were **no sales recorded** in the last quarter for any of the products listed (Gloves, Jacket, Shirt, Socks). This might mean there is missing information or that these items just didn’t sell during the chosen time period.  
 **Implications:** If the lack of sales is due to mistakes in data entry, those need to be fixed to get the right information. If these products truly didn’t sell, it could be helpful to look into why that is happening and consider changing inventory or marketing efforts.
+
 ![Screenshot 3](https://github.com/user-attachments/assets/7ec18c6b-16e4-4f22-9086-77078433220a)
 
 
@@ -171,12 +181,13 @@ The top 5 customers each contribute equally (4.235K) to the total sales in this 
 - **Cross-Selling Opportunities:** Suggest related products based on frequent purchases.
 
 - **Customer Retention Strategies:** Maintain loyalty through regular check-ins and dedicated support.
+  
 ![Screenshot (84)](https://github.com/user-attachments/assets/695c6309-a97e-496c-9095-3b1c95266fc4)
 
 
 ### Interactive Sales Data Slicer
-
- This slicer allows users to filter data by specific products, such as gloves, hats, jackets, etc.
+----
+- This slicer allows users to filter data by specific products, such as gloves, hats, jackets, etc.
 **Key Insights**: The slicer enables users to view sales data for each product individually, providing greater control for analyzing the performance of specific items.
 
 **Implications**: This feature is advantageous for in-depth analysis of individual product sales. By selecting different products, the team can quickly assess which items perform better and tailor their strategies accordingly.
@@ -184,11 +195,13 @@ The top 5 customers each contribute equally (4.235K) to the total sales in this 
 ![Screenshot 2](https://github.com/user-attachments/assets/4b0e371c-e0ee-42aa-98ec-f00eec9c6863)
 
 
+### Conclusion🥇
+----
+- The dashboard provides a comprehensive view of the retail store’s sales performance. By examining monthly trends, total sales, top products, and sales distribution, this analysis enables the store to make data-driven decisions. These insights will be instrumental in inventory management, marketing focus, and resource allocation, ultimately supporting the store's growth and profitability.
 
 
 
-
-
+                                                             # THANK YOU
 
 
 
