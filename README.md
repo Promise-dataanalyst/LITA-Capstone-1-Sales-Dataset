@@ -12,7 +12,7 @@ This analysis evaluates the sales performance of a retail store, offering insigh
 ### For Excel
 
 ### _Sum of Sales by Month_ 
-----
+---
 This line chart shows total monthly sales, highlighting fluctuations throughout the year. 
 
 - The highest sales in February were **($546300m)** and July **($274800m)**, with a difference of **($271500)** In contrast, the lowest sales in September were **($34720m)** and April **($46865m)**, indicating potential low demand or inventory issues, resulting in a difference of **($12145)**.
@@ -22,12 +22,12 @@ This line chart shows total monthly sales, highlighting fluctuations throughout 
 
 
 ### _Total Sales Amount_
-----
+---
 This KPI card provides a summary of the store's total sales for the year, which amount to approximately **$2.10** million. - This KPI is essential for high-level stakeholders who require a quick overview of the store's annual financial performance without needing to examine detailed specifics.
 
 
 ### _Top Selling Product_
-----
+---
 This bar chart shows the best-selling products of the year and highlights which items made the most revenue. Here are the main points:
 
 - **Shoes** were the top selling Product that generated in a lot of revenue.
@@ -37,7 +37,7 @@ This bar chart shows the best-selling products of the year and highlights which 
 
 
 **_Sum of Sales by Product_**
-----
+---
 This pie chart illustrates the distribution of sales by product, providing a quick understanding of each product's contribution to total sales. Notable observations include:
 
 - **Shoes**: Generated a total of $613.38K in sales, reinforcing its status as the leading product.
@@ -58,7 +58,7 @@ The dashboard provides a comprehensive view of the retail store’s sales perfor
 
 
 ### Report on Sales Distribution and Unit Pricing by Region
-----
+---
 ### _Unit Price by Region_
 ----
 This bar chart shows the number of unit prices in different regions, broken down into increases, decreases, and total units sold.
@@ -71,7 +71,7 @@ Below is the visual
 ![Screenshot (1)](https://github.com/user-attachments/assets/245bd4c5-eaa1-4053-89ae-6965c62d224a)
 
 #### _Sum of Sales by Region_
-----
+---
 This pie chart shows the distribution of total sales by region, including both absolute values and percentages. 
 
 - The East region leads with 44.16% of total sales (approximately 927.82K units).
@@ -84,34 +84,112 @@ Below is the visual.
 
 
 ### A Dashboard that visualizes the insights found in SQL
-----
+---
 ### _Sum of Total Sales by Product_
-----
+---
+ This bar chart displays total sales by product category.
 **Key Insights:**
-- Shoes have the highest total sales, amounting to 613.38K, indicating a strong preference or higher price point in this category.
-- Shirts come next with 485.60K, followed by Hats and Gloves with sales values of 316.20K and 296.90K, respectively.
-- The products with the lowest total sales are Jackets (208.23K) and Socks (180.79K).
-**Implications:** Shoes and Shirts contribute significantly to total revenue, suggesting they may be high-demand products or that they have a larger margin per sale.
+- **Shoes** have the highest sales at **$613.38K**, indicating strong customer preference.
+- **Shirts** follow with **$485.60K**, while Hats and Gloves have $316.20K and $296.90K, respectively.
+- The lowest sales are for Jackets at $208.23K and Socks at $180.79K.
+**Implications:** Shoes and Shirts are major revenue contributors, suggesting high demand or larger profit margins.
+  
 ![Screenshot 1](https://github.com/user-attachments/assets/4bc97b9f-125c-4265-a597-bd29c4f7832a)
 
 
 ### Sum of Number of Sales by Region
-----
- This bar chart illustrates the total number of sales across different regions (East, North, South, and West).
- **Key Insights:**
-Each region **(East, North, South, and West)** has an equal count of 2.48K sales, suggesting a well-distributed market reach across regions.
-This uniform distribution could indicate that the company's marketing and distribution strategies are effectively reaching customers evenly across all regions.
-Implications: Maintaining balanced sales in each region could be beneficial for risk management and resource allocation. However, it may also suggest an opportunity to focus on targeted campaigns to boost sales further in certain regions.
+---
+The bar chart shows total sales in four regions: ***East, North, South, and West**
+
+**Key Insights:**
+- Each region has **$2.48K** sales, indicating equal market reach.
+- This suggests the company’s marketing and distribution strategies are effective across all areas.
+
+**Implications:** 
+- Equal sales in each region can help with risk management and resource use. However, there may be an opportunity to run targeted campaigns to increase sales in specific regions.
+  
 ![Screenshot 2](https://github.com/user-attachments/assets/5d8d8cde-501d-4dd8-b7f5-60700c6d9e1e)
 
 
- **Sum of Highest-selling Product by Total Sales Value**
- ----
-This donut chart highlights the product with the highest sales value, which is Shoes, contributing to 100% of this particular metric.
-Key Insights:
-Shoes dominate as the product with the highest sales value, underscoring its significant impact on overall revenue.
-The visualization indicates that no other product reached the highest sales value category, reinforcing the popularity or pricing strategy behind Shoes.
-Implications: This suggests a successful strategy around Shoes, whether due to pricing, customer demand, or marketing efforts. The company could consider expanding the shoe product line or developing similar strategies for other product categories.
+ ### Sum of Highest-selling Product by Total Sales Value
+ ---
+This donut chart shows that Shoes have the highest sales value, making up 100% of this metric. 
 
-percentage of total sales contributed by each region.
- 
+**Key Insights:**
+
+- ***Shoes*** stand out as the top-selling product, significantly boosting overall revenue.
+- The chart indicates that no other product reached this sales value, highlighting the popularity or effective pricing of Shoes.
+
+**Implications:**
+- This suggests a successful strategy for **Shoes** whether due to pricing, customer demand, or marketing. The company could consider expanding the shoe line or applying similar approaches to other products.
+
+![Screenshot (3)](https://github.com/user-attachments/assets/5dfd7eda-38e7-4e3d-9808-2abcb2498e94)
+
+
+### The Percentage of total sales contributed by each region
+ ---
+ This pie chart shows total sales by region and their percentage of overall sales.
+
+**Key Points:**
+- The West region holds the highest sales proportion with **44.16% ($927.82K)**, followed by the North at **23.13%**, the East at **18.42%**, and the South at **14.29%**.
+- This suggests that the **West** is the **biggest market**, while the South has the smallest share.
+
+**Suggestions:** The company should consider the factors contributing to the higher sales in the West and consider adapting successful strategies from this region to boost sales in the South, where performance is currently lower.
+
+![Screenshot (83)](https://github.com/user-attachments/assets/5a9ba9b7-649a-4bac-be3a-97c1df80ffc2)
+
+
+
+
+
+
+
+
+### Product with No Sales in the Last Quarter
+----
+This chart shows how many of each product was sold.  
+
+**Key Insights:** The data reveals that there were **no sales recorded** in the last quarter for any of the products listed (Gloves, Jacket, Shirt, Socks). This might mean there is missing information or that these items just didn’t sell during the chosen time period.  
+**Implications:** If the lack of sales is due to mistakes in data entry, those need to be fixed to get the right information. If these products truly didn’t sell, it could be helpful to look into why that is happening and consider changing inventory or marketing efforts.
+![Screenshot 3](https://github.com/user-attachments/assets/7ec18c6b-16e4-4f22-9086-77078433220a)
+
+
+Top 5 Customers by Total Purchase Amount
+----
+This donut chart shows the total purchases made by each customer, with each contributing the same amount **($4.235K)**
+
+The top 5 customers each contribute equally (4.235K) to the total sales in this dataset. Their contributions underscore their value to the business. 
+
+**My Recommendations:**
+
+- **Loyalty Programs:** Offer discounts and early access to retain top-spending customers.
+
+- **Personalized Marketing:** Analyze purchase histories for targeted marketing and increased sales.
+
+- **Customer Feedback:** Collect feedback to improve products and services, as happy customers refer others.
+
+- **Cross-Selling Opportunities:** Suggest related products based on frequent purchases.
+
+- **Customer Retention Strategies:** Maintain loyalty through regular check-ins and dedicated support.
+![Screenshot (84)](https://github.com/user-attachments/assets/695c6309-a97e-496c-9095-3b1c95266fc4)
+
+
+### Interactive Sales Data Slicer
+
+ This slicer allows users to filter data by specific products, such as gloves, hats, jackets, etc.
+**Key Insights**: The slicer enables users to view sales data for each product individually, providing greater control for analyzing the performance of specific items.
+
+**Implications**: This feature is advantageous for in-depth analysis of individual product sales. By selecting different products, the team can quickly assess which items perform better and tailor their strategies accordingly.
+
+![Screenshot 2](https://github.com/user-attachments/assets/4b0e371c-e0ee-42aa-98ec-f00eec9c6863)
+
+
+
+
+
+
+
+
+
+
+
