@@ -154,7 +154,7 @@ This chart shows how many of each product was sold.
 ![Screenshot 3](https://github.com/user-attachments/assets/7ec18c6b-16e4-4f22-9086-77078433220a)
 
 
-Top 5 Customers by Total Purchase Amount
+### Top 5 Customers by Total Purchase Amount
 ----
 This donut chart shows the total purchases made by each customer, with each contributing the same amount **($4.235K)**
 
