@@ -8,6 +8,11 @@
 ---
 This analysis evaluates the sales performance of a retail store, offering insights into monthly sales trends, top-selling products, total sales, and the distribution of sales by product category. The goal is to identify areas of strength and potential growth, enabling the store to strategize and enhance overall performance.
 
+### Dataset
+---
+Sales Performance Data - Used in Project 1
+
+Contains sales transaction details such as product sales, regional sales, and monthly performance metrics.
 
 # Create a Dashboard that visualizes the insights found in Excel and SQL
 
