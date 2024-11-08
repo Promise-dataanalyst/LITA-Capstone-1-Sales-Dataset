@@ -4,14 +4,16 @@
 ![Screenshot 2](https://github.com/user-attachments/assets/7e9570f9-fff2-4754-bdef-7136cfa590aa)
 
  
-### Project Description
+### Project Description:
 ---
 This analysis evaluates the sales performance of a retail store, offering insights into monthly sales trends, top-selling products, total sales, and the distribution of sales by product category. The goal is to identify areas of strength and potential growth, enabling the store to strategize and enhance overall performance.
 
-### Dataset Overview
+### Dataset Overview:
 ---
-Source: Sales data from a retail store.
-Data Contents: Includes information on product sales, regional performance, transaction records, and sales dates.
+### Data Content:
+----
+Sales data from a retail store, includes information on product sales, regional performance, transaction records, and sales dates.
+
 ### Insights to Extract:
 - Total sales per product category.
 - Sales transaction count by region.
@@ -20,7 +22,8 @@ Data Contents: Includes information on product sales, regional performance, tran
 - Top 5 customers by purchase amount.
 - Products with no recent sales (last quarter).
 
-  **Tools Used and Steps**
+  ### Tools Used and Steps followed:
+  -----
 
 **Excel:**
 - Explored and cleaned data, removing duplicates.
