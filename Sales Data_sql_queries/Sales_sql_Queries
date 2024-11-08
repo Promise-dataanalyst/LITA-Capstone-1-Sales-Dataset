@@ -1,3 +1,8 @@
+
+
+-----Imported Sales data into SQL----
+	Select * from[dbo].[Sales Datasets]
+
 -----Total sales from each Product Category----
 
 Select Product,
