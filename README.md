@@ -8,15 +8,38 @@
 ---
 This analysis evaluates the sales performance of a retail store, offering insights into monthly sales trends, top-selling products, total sales, and the distribution of sales by product category. The goal is to identify areas of strength and potential growth, enabling the store to strategize and enhance overall performance.
 
-### Dataset
+### Dataset Overview
 ---
-Sales Performance Data - Used in Project 1
+Source: Sales data from a retail store.
+Data Contents: Includes information on product sales, regional performance, transaction records, and sales dates.
+### Insights to Extract:
+- Total sales per product category.
+- Sales transaction count by region.
+- Highest-selling product by total value.
+- Monthly and regional revenue.
+- Top 5 customers by purchase amount.
+- Products with no recent sales (last quarter).
 
-Contains sales transaction details such as product sales, regional sales, and monthly performance metrics.
+  **Tools Used and Steps**
 
-# Create a Dashboard that visualizes the insights found in Excel and SQL
+**Excel:**
+- Explored and cleaned data, removing duplicates.
+- Created pivot tables to summarize data and perform calculations.
+- Used formulas to calculate key metrics like total revenue by region.
 
-### For Excel
+**SQL:**
+- Loaded data for query base analysis.
+- Extracted sales insights with queries to answer questions about products and customer purchases.
+
+**Power BI:**
+- Loaded and transformed data for analysis.
+- Made an interactive dashboard to display sales performance.
+- Showed key visuals such as sales overview, top-selling products, and regional breakdowns.
+
+
+### Create a Dashboard that visualizes the insights found in Excel and SQL
+
+### Insight on Excel
 
 ### _Sum of Sales by Month_ 
 ---
@@ -48,7 +71,7 @@ This bar chart shows the best-selling products of the year and highlights which 
 ![Screenshot (87)](https://github.com/user-attachments/assets/8d97676c-dfbf-41d1-9b02-bca30b73f82f)
 
 
-**_Sum of Sales by Product_**
+### _Sum of Sales by Product_
 ---
 This pie chart illustrates the distribution of sales by product, providing a quick understanding of each product's contribution to total sales. Notable observations include:
 
