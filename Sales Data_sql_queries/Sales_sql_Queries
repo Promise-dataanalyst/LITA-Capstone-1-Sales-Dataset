@@ -1,0 +1,84 @@
+-----Total sales from each Product Category----
+
+Select Product,
+	Sum(Sales) as TotalSales
+	from[dbo].[Sales Datasets]
+	Group by Product
+
+ ----Total Numbers of Sales Transactions in each Region---
+
+Select Region,
+	Count(OrderID) as NumbersOfSales
+	from [dbo].[Sales Datasets]
+	Group by Region
+
+----Highest-selling product by total sales value---
+
+Select Top 1 Product,	
+	sum(sales) as HighestSalesValue
+	from [dbo].[Sales Datasets]
+	Group by Product
+
+-----calculate total revenue per product----
+
+Select Product,
+	Sum(Sales) as TotalRevenue
+	from [dbo].[Sales Datasets]
+	Group by Product
+
+	Select * from [dbo].[Sales Datasets]
+
+---- calculate monthly sales totals for the current year--
+
+Select 
+	DATENAME(MONTH, OrderDate) AS MonthName,
+	Sum(sales) as MonthlySales
+	From  [dbo].[Sales Datasets]
+	Where 
+	Year(OrderDate) = 2024
+	Group by 
+	DATENAME(MONTH, OrderDate),
+	MONTH(OrderDate)
+	Order by
+	  Month(OrderDate);
+
+Select * from [dbo].[Sales Datasets]
+	
+----Find the top 5 customers by total purchase amount---
+
+Select Top 5 Customer_Id,
+	sum(Sales) as TotalPurchase
+	From [dbo].[Sales Datasets]
+	Group by Customer_Id
+	Order by TotalPurchase desc
+
+---Percentage of total sales contributed by each region---
+
+Select 
+	Region,
+	 sum(Quantity * UnitPrice) as TotalSales,
+	(sum(Quantity * UnitPrice) * 100.0) / 
+	Sum(sum(Quantity * UnitPrice)) Over ()
+	as PercentageOfTotalSales
+	From [dbo].[Sales Datasets]
+	Group by Region
+
+--- identify products with no sales in the last quarter--
+Select * from [dbo].[Sales Datasets]
+
+SELECT 
+    p.Product,
+    COALESCE(SUM(s.sales), 0) AS NoSales
+FROM 
+    (SELECT DISTINCT Product FROM [dbo].[Sales Datasets]) AS p
+LEFT JOIN 
+    (SELECT Product, SUM(Sales) AS sales
+     FROM [dbo].[Sales Datasets]
+     WHERE OrderDate BETWEEN '2024-07-01' AND '2024-09-30'
+     GROUP BY Product) AS s ON p.Product = s.Product
+WHERE 
+    s.Product IS NULL  
+GROUP BY 
+    p.Product
+ORDER BY 
+    p.Product;
